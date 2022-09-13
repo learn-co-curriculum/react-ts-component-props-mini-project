@@ -1,4 +1,5 @@
-import logo from "../assets/logo.svg";
+const logo = require("../assets/logo.svg") as string;
+
 
 const blogData = {
   name: "Underreacted",
