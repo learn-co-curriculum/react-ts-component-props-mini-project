@@ -1,9 +1,6 @@
-const logo = require("../assets/logo.svg") as string;
-
-
 const blogData = {
   name: "Underreacted",
-  image: logo,
+  image: 'https://curriculum-content.s3.amazonaws.com/react-ts/component-props-mini-project/logo192.png',
   about: "A blog about learning React",
   posts: [
     {
