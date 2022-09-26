@@ -18,14 +18,19 @@ We'll be creating a personal blog site, similar to
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-component-props-mini-project/demo.png)
 
-There is some starter code available in `src/components/App.js`. There is also
-some data in `data/blog.js` that is being imported into `App` so you can pass
+There is some starter code available in `src/components/App.tsx`. There is also
+some data in `data/blog.ts` that is being imported into `App` so you can pass
 it down to the components that need it.
+
+To get started, fork and clone this repo and `npm install && npm start` it to get
+going. Once you think you're done, run `npm test` to make sure you've passed them
+all. 
 
 ## Deliverables
 
 Have a look at the components below and draw out a component hierarchy so you
-can determine how to pass data down as props.
+can determine how to pass data down as props. Don't forget to create type
+interfaces as needed to properly type your props. 
 
 ### Header
 

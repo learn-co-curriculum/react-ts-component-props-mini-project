@@ -1,8 +1,6 @@
-import logo from "../assets/logo.svg";
-
 const blogData = {
   name: "Underreacted",
-  image: logo,
+  image: 'https://curriculum-content.s3.amazonaws.com/react-ts/component-props-mini-project/logo192.png',
   about: "A blog about learning React",
   posts: [
     {
